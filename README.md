@@ -2,7 +2,7 @@
 
 ##  Objetivos
 
-* Implementar un modelo de colas **M/M/1/K/∞** en Python.
+* Implementar un modelo de colas **M/M/1/K/∞** en 
 * Calcular métricas clave del sistema tanto de forma **matemática** como mediante **simulación**.
 * Comparar los resultados obtenidos para validar el modelo computacional.
 
