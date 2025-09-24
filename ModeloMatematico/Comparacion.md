@@ -108,7 +108,7 @@ El modelo matemático permite calcular métricas clave del sistema de colas \$M/
 
 Los resultados de la simulación en NetLogo son muy cercanos a los valores teóricos, con errores menores al 10% en todos los casos. Las diferencias se deben a la variabilidad aleatoria inherente a los procesos estocásticos en la simulación.
 
-Además, se modificó el código de NetLogo para **respetar la capacidad máxima del sistema (\$K = 5\$)**. Esto garantiza que los clientes que no caben en el sistema no ingresan, permitiendo medir correctamente la tasa efectiva de llegada y el efecto del bloqueo en la cola.
+Además, se modificó el código de NetLogo para respetar la capacidad máxima del sistema (\$K = 5\$). Esto garantiza que los clientes que no caben en el sistema no ingresan, permitiendo medir correctamente la tasa efectiva de llegada y el efecto del bloqueo en la cola.
 
 ```
 
