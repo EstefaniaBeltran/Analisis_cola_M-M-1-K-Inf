@@ -1,15 +1,4 @@
 
-
----
-
-# 📄 comparacion.md
-
-````markdown
-# Comparación entre Modelo Matemático y Modelo Computacional  
-Sistema de colas **M/M/1/K/∞**  
-
----
-
 ## Parámetros del sistema  
 - Tasa de llegada: $\lambda = 2$ clientes/minuto  
 - Tasa de servicio: $\mu = 3$ clientes/minuto  
@@ -21,7 +10,6 @@ Factor de utilización:
 \rho = \frac{\lambda}{\mu} = \frac{2}{3} \approx 0.667
 ````
 
----
 
 ## Modelo Matemático
 
