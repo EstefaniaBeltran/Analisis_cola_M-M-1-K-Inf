@@ -1,8 +1,8 @@
-## Análisis cola M/M/1/K
+## Análisis cola M/M/1/K/Ifinito
 
 ##  Objetivos
 
-* Implementar un modelo de colas **M/M/1/K/∞** en 
+* Implementar un modelo de colas **M/M/1/K/Infinito** en 
 * Calcular métricas clave del sistema tanto de forma **matemática** como mediante **simulación**.
 * Comparar los resultados obtenidos para validar el modelo computacional.
 
