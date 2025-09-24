@@ -91,7 +91,7 @@ NS = \frac{K}{2}
 ## 5) Número medio en cola $L_q$
 
 ```math
-L_q = L - (1-P_0)
+L_q = NS - (1-P_0)
 ```
 
 **Caso $\rho=1$:**
@@ -104,7 +104,7 @@ L_q = \frac{K(K-1)}{2(K+1)}
 ## 6) Tiempos medios $W$ y $W_q$
 
 ```math
-W = \frac{L}{\lambda_{\text{eff}}}, \quad W_q = \frac{L_q}{\lambda_{\text{eff}}}
+W = \frac{NS}{\lambda_{\text{eff}}}, \quad W_q = \frac{L_q}{\lambda_{\text{eff}}}
 ```
 
 Relación alternativa:  
@@ -133,13 +133,13 @@ P_0 = \frac{1-\rho}{1-\rho^{K+1}}, \quad P_n = P_0 \rho^n, \quad P_K = P_0 \rho^
 \lambda_{\text{eff}} = \lambda(1-P_K)
 ```
 ```math
-L = \frac{\rho(1-(K+1)\rho^K + K\rho^{K+1})}{(1-\rho)(1-\rho^{K+1})}
+NS = \frac{\rho(1-(K+1)\rho^K + K\rho^{K+1})}{(1-\rho)(1-\rho^{K+1})}
 ```
 ```math
-L_q = L - (1-P_0)
+L_q = NS - (1-P_0)
 ```
 ```math
-W = \frac{L}{\lambda_{\text{eff}}}, \quad W_q = W - \frac{1}{\mu}
+W = \frac{NS}{\lambda_{\text{eff}}}, \quad W_q = W - \frac{1}{\mu}
 ```
 
 **Caso $\rho=1$:**
