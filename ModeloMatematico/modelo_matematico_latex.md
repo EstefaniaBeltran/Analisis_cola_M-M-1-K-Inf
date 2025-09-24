@@ -1,14 +1,14 @@
 
-# Modelo Matemático M/M/1/K (Fuente Infinita)
+# Modelo Matemático M/M/1/K/Infinita
 
-Este documento presenta el **modelo matemático paso a paso** de una cola M/M/1/K con población fuente infinita.  
+El modelo matemático paso a paso de una cola M/M/1/K/Infinita.  
 
 ---
 
 ## 1) Definiciones y notación
 
-- Llegadas: **Poisson** con tasa $\lambda$.  
-- Servicio: **Exponencial** con tasa $\mu$.  
+- Llegadas: Poisson con tasa $\lambda$.  
+- Servicio: Exponencial con tasa $\mu$.  
 - Número de servidores: $1$.  
 - Capacidad máxima del sistema (incluye el servidor): $K$.  
 - Población fuente: Infinita.  
