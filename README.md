@@ -37,11 +37,9 @@ Resultados obtenidos al correr la simulación:
 | Clientes bloqueados             | 368               |
 | Clientes totales simulados      | 39,936            |
 
-## ✅ Conclusión
+##  Conclusión
 
 El modelo matemático y la simulación muestran valores muy cercanos, validando la correcta implementación del sistema M/M/1/K/ Infinito en Python.
 
----
 
-👉 ¿Quieres que lo prepare en formato **`README.md` listo para que lo copies y pegues en tu repositorio**, o prefieres que lo exporte ya en un archivo `.md` descargable?
 
