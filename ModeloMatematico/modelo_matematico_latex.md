@@ -101,16 +101,16 @@ Nw = \frac{K(K-1)}{2(K+1)}
 
 ---
 
-## 6) Tiempos medios $TS$ y $W_q$
+## 6) Tiempos medios $TS$ y $Tw$
 
 ```math
-TS = \frac{NS}{\lambda_{\text{eff}}}, \quad W_q = \frac{Nw}{\lambda_{\text{eff}}}
+TS = \frac{NS}{\lambda_{\text{eff}}}, \quad Tw = \frac{Nw}{\lambda_{\text{eff}}}
 ```
 
 Relación alternativa:  
 
 ```math
-W_q = TS - \frac{1}{\mu}
+Tw = TS - \frac{1}{\mu}
 ```
 
 **Caso $\rho=1$:**
@@ -118,7 +118,7 @@ W_q = TS - \frac{1}{\mu}
 \lambda_{\text{eff}} = \lambda \frac{K}{K+1}
 ```
 ```math
-W = \frac{K+1}{2\lambda}, \quad W_q = \frac{K+1}{2\lambda} - \frac{1}{\mu}
+TS = \frac{K+1}{2\lambda}, \quad Tw = \frac{K+1}{2\lambda} - \frac{1}{\mu}
 ```
 
 ---
@@ -139,7 +139,7 @@ NS = \frac{\rho(1-(K+1)\rho^K + K\rho^{K+1})}{(1-\rho)(1-\rho^{K+1})}
 Nw = NS - (1-P_0)
 ```
 ```math
-TS = \frac{NS}{\lambda_{\text{eff}}}, \quad W_q = TS - \frac{1}{\mu}
+TS = \frac{NS}{\lambda_{\text{eff}}}, \quad Tw= TS - \frac{1}{\mu}
 ```
 
 **Caso $\rho=1$:**
@@ -150,10 +150,10 @@ P_n = \frac{1}{K+1}, \quad P_K = \frac{1}{K+1}
 \lambda_{\text{eff}} = \lambda \frac{K}{K+1}
 ```
 ```math
-L = \frac{K}{2}, \quad L_q = \frac{K(K-1)}{2(K+1)}
+NS = \frac{K}{2}, \quad Nw = \frac{K(K-1)}{2(K+1)}
 ```
 ```math
-W = \frac{K+1}{2\lambda}, \quad W_q = \frac{K+1}{2\lambda} - \frac{1}{\mu}
+TS = \frac{K+1}{2\lambda}, \quad Tw = \frac{K+1}{2\lambda} - \frac{1}{\mu}
 ```
 
 ---
