@@ -93,9 +93,9 @@ Tw = TS - \frac{1}{\mu} = 0.626 - 0.333 \approx 0.293 \; minutos
 | ----------------------------------------- | ----------------- |
 | \$P\_0\$ (sistema vacío)                  | 0.398             |
 | \$NS\$ (número medio en sistema)          | 1.19              |
-| \$Nw  \$ (número medio en cola)           | 0.59              |
+| \$Nw\$ (número medio en cola)             | 0.59              |
 | \$TS\$ (tiempo medio en sistema)          | 0.626 min         |
-| \$Tw  \$ (tiempo medio en cola)           | 0.293 min         |
+| \$Tw\$ (tiempo medio en cola)             | 0.293 min         |
 | \$\lambda\_e\$ (tasa efectiva de llegada) | 1.90 clientes/min |
 
 ---
