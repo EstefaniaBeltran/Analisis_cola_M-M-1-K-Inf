@@ -10,7 +10,7 @@ El modelo matemático paso a paso de una cola M/M/1/K/Infinita.
 - Llegadas: Poisson con tasa $\lambda$.  
 - Servicio: Exponencial con tasa $\mu$.  
 - Número de servidores: $1$.  
-- Capacidad máxima del sistema (incluye el servidor): $K$.  
+- Capacidad máxima del sistema: $K$.  
 - Población fuente: Infinita.  
 - Factor de utilización:  
 
@@ -69,7 +69,7 @@ P_K = \frac{(1-\rho)\rho^K}{1-\rho^{K+1}}, \quad (\rho \neq 1)
 
 ---
 
-## 4) Número medio en el sistema $L$
+## 4) Número de usuarios en el sistema $NS$
 
 ```math
 \sum_{n=0}^K n \rho^n = \frac{\rho (1 - (K+1)\rho^K + K\rho^{K+1})}{(1-\rho)^2}
@@ -78,12 +78,12 @@ P_K = \frac{(1-\rho)\rho^K}{1-\rho^{K+1}}, \quad (\rho \neq 1)
 Multiplicando por $P_0$:  
 
 ```math
-L = \frac{\rho(1-(K+1)\rho^K+K\rho^{K+1})}{(1-\rho)(1-\rho^{K+1})}, \quad (\rho \neq 1)
+NS = \frac{\rho(1-(K+1)\rho^K+K\rho^{K+1})}{(1-\rho)(1-\rho^{K+1})}, \quad (\rho \neq 1)
 ```
 
 **Caso $\rho=1$:**
 ```math
-L = \frac{K}{2}
+NS = \frac{K}{2}
 ```
 
 ---
