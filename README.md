@@ -1,4 +1,4 @@
-#Análisis cola M/M/1/K
+## Análisis cola M/M/1/K
 
 ##  Objetivos
 
