@@ -37,22 +37,22 @@ Ejemplos:
 * \$P\_2 \approx 0.177\$
 * \$P\_5 \approx 0.052\$
 
-### Número promedio de clientes en el sistema (\$L\$)
+### Número de usuarios en el sistema (\$NS\$)
 
 ```math
-L = \sum_{n=0}^{K} n P_n
+NS = \sum_{n=0}^{K} n P_n
 ```
 
 Evaluando la suma:
 
 ```math
-L \approx 1.19
+NS \approx 1.19
 ```
 
 ### Número promedio en cola (\$L\_q\$)
 
 ```math
-L_q = L - (1 - P_0)
+L_q = NS - (1 - P_0)
 ```
 
 ```math
@@ -92,7 +92,7 @@ W_q = W - \frac{1}{\mu} = 0.626 - 0.333 \approx 0.293 \; minutos
 | Métrica                                   | Valor aproximado  |
 | ----------------------------------------- | ----------------- |
 | \$P\_0\$ (sistema vacío)                  | 0.398             |
-| \$L\$ (número medio en sistema)           | 1.19              |
+| \$NS\$ (número medio en sistema)          | 1.19              |
 | \$L\_q\$ (número medio en cola)           | 0.59              |
 | \$W\$ (tiempo medio en sistema)           | 0.626 min         |
 | \$W\_q\$ (tiempo medio en cola)           | 0.293 min         |
@@ -106,7 +106,7 @@ Cuando ejecutes el **modelo de simulación adjunto** (el que el profesor entreg�
 
 | Métrica        | Matemático        | Simulación |
 | -------------- | ----------------- | ---------- |
-| \$L\$          | 1.19              | ...        |
+| \$NS\$         | 1.19              | ...        |
 | \$L\_q\$       | 0.59              | ...        |
 | \$W\$          | 0.626 min         | ...        |
 | \$W\_q\$       | 0.293 min         | ...        |
