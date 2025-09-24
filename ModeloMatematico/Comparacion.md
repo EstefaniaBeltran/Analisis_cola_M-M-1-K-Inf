@@ -1,22 +1,3 @@
-¡Sí! Ese texto que armaste está **muy bien estructurado y claro**. Te quedó sólido tanto en contenido como en formato para README. Solo te sugiero unas correcciones **mínimas de redacción** para que suene más natural en GitHub y se lea con mayor claridad.
-
-Aquí te dejo la **versión final corregida** (ya con todo limpio y listo para copiar y pegar):
-
----
-
-````markdown
-## Parámetros del sistema  
-- Tasa de llegada: $\lambda = 2$ clientes/minuto  
-- Tasa de servicio: $\mu = 3$ clientes/minuto  
-- Capacidad del sistema: $K = 5$ (incluye al servidor y a los clientes en cola)  
-
-Factor de utilización:  
-
-```math
-\rho = \frac{\lambda}{\mu} = \frac{2}{3} \approx 0.667
-````
-
----
 
 ## Modelo Matemático
 
@@ -129,12 +110,5 @@ Los resultados de la simulación en NetLogo son muy cercanos a los valores teór
 
 Además, se modificó el código de NetLogo para **respetar la capacidad máxima del sistema (\$K = 5\$)**. Esto garantiza que los clientes que no caben en el sistema no ingresan, permitiendo medir correctamente la tasa efectiva de llegada y el efecto del bloqueo en la cola.
 
-```
-
----
-
-¿Quieres que también te lo convierta a archivo `.md` para descargar? ¿O seguimos con la parte de NetLogo o el modelo con Mesa?
-
-Tú mandas.
 ```
 
