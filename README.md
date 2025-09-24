@@ -1,41 +1,21 @@
-Aquí tienes el **README final** que resume todo tu trabajo, con objetivos, explicación, instrucciones y un ejemplo de salida de la simulación en Python con **NumPy**:
+#Análisis cola M/M/1/K
 
----
-
-# 📄 Simulación M/M/1/K
-
-## 🎯 Objetivos
+##  Objetivos
 
 * Implementar un modelo de colas **M/M/1/K/∞** en Python.
 * Calcular métricas clave del sistema tanto de forma **matemática** como mediante **simulación**.
 * Comparar los resultados obtenidos para validar el modelo computacional.
 
-## 📝 Explicación
+#
 
-Este proyecto estudia un sistema de colas con:
+Se calcularon las métricas teóricas mediante el modelo matemático y se comprobaron mediante simulación en netLogo y en mesa mesiante Python.
 
-* **Llegadas Poisson** con tasa λ.
-* **Servicio exponencial** con tasa μ.
-* **Un solo servidor (M/M/1)**.
-* **Capacidad máxima del sistema K**, por lo que los clientes que llegan cuando el sistema está lleno son bloqueados.
 
-Se calcularon las métricas teóricas mediante el modelo matemático y se comprobaron mediante simulación en **Python**.
+##  Requisitos
 
-El código está implementado en un solo archivo (`mm1k_simulacion.py`) sin usar programación orientada a objetos.
+Antes de ejecutar el programa, debes tener instalado en python y el paquete **NumPy**.
 
-## ⚙️ Requisitos
-
-Antes de ejecutar el programa, debes tener instalado **Python 3** y el paquete **NumPy**.
-
-Para instalar NumPy en tu entorno:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install numpy
-```
-
-## ▶️ Ejecución
+## Ejecución
 
 Ejecuta el archivo principal:
 
@@ -43,7 +23,7 @@ Ejecuta el archivo principal:
 python3 mm1k_simulacion.py
 ```
 
-## 📊 Ejemplo de salida
+## Ejemplo de salida
 
 Resultados obtenidos al correr la simulación:
 
@@ -59,7 +39,7 @@ Resultados obtenidos al correr la simulación:
 
 ## ✅ Conclusión
 
-El modelo matemático y la simulación muestran valores muy cercanos, validando la correcta implementación del sistema **M/M/1/K** en Python.
+El modelo matemático y la simulación muestran valores muy cercanos, validando la correcta implementación del sistema M/M/1/K/ Infinito en Python.
 
 ---
 
