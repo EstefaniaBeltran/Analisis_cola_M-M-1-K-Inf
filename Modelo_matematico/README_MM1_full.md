@@ -1,5 +1,5 @@
 
-# Modelo matemático M/M/1 — Desarrollo paso a paso (COMPLETO)
+# Modelo matemático Cola  M/M/1/k/Inf
 
 **Objetivo:** presentar el desarrollo matemático detallado del modelo M/M/1 (capacidad infinita) en función de $\lambda$ (tasa de llegada) y $\mu$ (tasa de servicio).
 
