@@ -1,10 +1,4 @@
-Vale, entiendo 👌. Como no pudiste descargar, lo que haré es dejarte el archivo **completo en texto** para que solo copies y pegues en un archivo nuevo en tu repositorio.
 
-📌 Pasos:
-
-1. En tu proyecto, crea un archivo llamado `comparacion.md` (o `README.md` si quieres que se muestre de entrada).
-2. Copia y pega **todo el siguiente contenido**.
-3. Haz commit y push a GitHub.
 
 ---
 
