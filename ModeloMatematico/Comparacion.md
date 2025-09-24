@@ -64,7 +64,7 @@ Nw \approx 1.19 - (1 - 0.398) = 0.59
 Por la Ley de Little:
 
 ```math
-TS = \frac{L}{\lambda_e}
+TS = \frac{NS}{\lambda_e}
 ```
 
 donde \$\lambda\_e\$ es la **tasa efectiva de llegada**:
@@ -79,10 +79,10 @@ Entonces:
 TS = \frac{1.19}{1.90} \approx 0.626 \; minutos
 ```
 
-### Tiempo promedio en cola (\$W\_q\$)
+### Tiempo en cola (\$Tw\$)
 
 ```math
-W_q = TS - \frac{1}{\mu} = 0.626 - 0.333 \approx 0.293 \; minutos
+Tw = TS - \frac{1}{\mu} = 0.626 - 0.333 \approx 0.293 \; minutos
 ```
 
 ---
@@ -95,7 +95,7 @@ W_q = TS - \frac{1}{\mu} = 0.626 - 0.333 \approx 0.293 \; minutos
 | \$NS\$ (número medio en sistema)          | 1.19              |
 | \$Nw  \$ (número medio en cola)           | 0.59              |
 | \$TS\$ (tiempo medio en sistema)          | 0.626 min         |
-| \$W\_q\$ (tiempo medio en cola)           | 0.293 min         |
+| \$Tw  \$ (tiempo medio en cola)           | 0.293 min         |
 | \$\lambda\_e\$ (tasa efectiva de llegada) | 1.90 clientes/min |
 
 ---
@@ -109,7 +109,7 @@ Cuando ejecutes el **modelo de simulación adjunto** (el que el profesor entreg�
 | \$NS\$         | 1.19              | ...        |
 | \$Nw  \$       | 0.59              | ...        |
 | \$TS\$         | 0.626 min         | ...        |
-| \$W\_q\$       | 0.293 min         | ...        |
+| \$Tw  \$       | 0.293 min         | ...        |
 | \$\lambda\_e\$ | 1.90 clientes/min | ...        |
 
 ---
@@ -119,10 +119,4 @@ Cuando ejecutes el **modelo de simulación adjunto** (el que el profesor entreg�
 El modelo matemático permite calcular métricas clave del sistema de colas \$M/M/1/K/\infty\$.
 La simulación computacional valida estos resultados de manera experimental, mostrando valores muy cercanos a los teóricos.
 
-```
-
----
-
-👉 ¿Quieres que también te escriba los **comandos git paso a paso** para que lo subas directo a GitHub sin enredos?
-```
 
