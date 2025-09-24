@@ -59,12 +59,12 @@ Nw = NS - (1 - P_0)
 Nw \approx 1.19 - (1 - 0.398) = 0.59
 ```
 
-### Tiempo promedio en el sistema (\$W\$)
+### Tiempo en el sistema (\$TS\$)
 
 Por la Ley de Little:
 
 ```math
-W = \frac{L}{\lambda_e}
+TS = \frac{L}{\lambda_e}
 ```
 
 donde \$\lambda\_e\$ es la **tasa efectiva de llegada**:
@@ -76,13 +76,13 @@ donde \$\lambda\_e\$ es la **tasa efectiva de llegada**:
 Entonces:
 
 ```math
-W = \frac{1.19}{1.90} \approx 0.626 \; minutos
+TS = \frac{1.19}{1.90} \approx 0.626 \; minutos
 ```
 
 ### Tiempo promedio en cola (\$W\_q\$)
 
 ```math
-W_q = W - \frac{1}{\mu} = 0.626 - 0.333 \approx 0.293 \; minutos
+W_q = TS - \frac{1}{\mu} = 0.626 - 0.333 \approx 0.293 \; minutos
 ```
 
 ---
@@ -94,7 +94,7 @@ W_q = W - \frac{1}{\mu} = 0.626 - 0.333 \approx 0.293 \; minutos
 | \$P\_0\$ (sistema vacío)                  | 0.398             |
 | \$NS\$ (número medio en sistema)          | 1.19              |
 | \$Nw  \$ (número medio en cola)           | 0.59              |
-| \$W\$ (tiempo medio en sistema)           | 0.626 min         |
+| \$TS\$ (tiempo medio en sistema)          | 0.626 min         |
 | \$W\_q\$ (tiempo medio en cola)           | 0.293 min         |
 | \$\lambda\_e\$ (tasa efectiva de llegada) | 1.90 clientes/min |
 
@@ -108,7 +108,7 @@ Cuando ejecutes el **modelo de simulación adjunto** (el que el profesor entreg�
 | -------------- | ----------------- | ---------- |
 | \$NS\$         | 1.19              | ...        |
 | \$Nw  \$       | 0.59              | ...        |
-| \$W\$          | 0.626 min         | ...        |
+| \$TS\$         | 0.626 min         | ...        |
 | \$W\_q\$       | 0.293 min         | ...        |
 | \$\lambda\_e\$ | 1.90 clientes/min | ...        |
 
