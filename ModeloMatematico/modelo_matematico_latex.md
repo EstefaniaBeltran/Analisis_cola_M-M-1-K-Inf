@@ -158,7 +158,4 @@ TS = \frac{K+1}{2\lambda}, \quad Tw = \frac{K+1}{2\lambda} - \frac{1}{\mu}
 
 ---
 
-## 8) Notas finales
-
-- Este modelo es válido para colas **M/M/1/K** con población infinita y capacidad máxima $K$.  
-- Todas las fórmulas están listas para usarse en cálculos teóricos o implementaciones.  
+ 
